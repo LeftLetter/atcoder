@@ -1,0 +1,4 @@
+{
+  "pyright.disableLanguageServices": true,
+  "pyright.typeCheckingMode": "off"
+}
