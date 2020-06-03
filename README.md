@@ -1,5 +1,5 @@
 # atcoder
-AtCoderの精進記録です。
+Records of AtCoder.
 
-# 前提条件
+# Prerequirement
 * Python 3.8.2
