@@ -2,4 +2,6 @@
 Records of AtCoder.
 
 # Prerequirement
-* Python 3.8.2
+* Docker
+* VS Code
+    * ms-vscode-remote.remote-containers

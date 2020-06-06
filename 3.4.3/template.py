@@ -1,0 +1,6 @@
+n = input()
+s = input()
+n = int(input())
+k = int(input())
+a_list = map(int, input().split())
+n, k = map(int, input().split())
