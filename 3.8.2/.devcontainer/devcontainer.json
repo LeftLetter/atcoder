@@ -2,7 +2,9 @@
   "name": "atcoder-3.8.2",
   "dockerFile": "Dockerfile",
   "shutdownAction": "none",
-  "extensions": ["ms-python.python"],
+  "extensions": [
+    "ms-python.python"
+  ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
     "editor.formatOnSave": true,
@@ -10,8 +12,15 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "autopep8",
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Args": [
+      "--ignore=E501"
+    ],
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+    "[python]": {
+      "editor.tabSize": 4
+    }
   }
 }
