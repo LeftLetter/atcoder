@@ -1,3 +1,3 @@
 n = input()
 k = int(input())
-a = list(map(int, input().split()))
+a_list = map(int, input().split())
