@@ -6,7 +6,7 @@
     "ms-python.python"
   ],
   "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.defaultProfile.linux": "bash",
     "editor.formatOnSave": true,
     "python.pythonPath": "/usr/local/bin/python",
     "python.linting.pylintEnabled": false,
