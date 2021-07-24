@@ -1,6 +1,9 @@
 import sys
+
+
 def input():
     return sys.stdin.readline()[:-1]
+
 
 n = int(input())
 a_list = list(map(int, input().split()))

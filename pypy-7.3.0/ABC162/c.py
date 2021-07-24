@@ -1,9 +1,12 @@
+import math
+from functools import reduce
 import sys
+
+
 def input():
     return sys.stdin.readline()[:-1]
 
-import math
-from functools import reduce
+
 k = int(input())
 
 sum = 0
