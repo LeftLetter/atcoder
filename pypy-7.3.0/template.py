@@ -2,11 +2,13 @@ import sys
 import io
 
 
+if "debugpy" in sys.modules:
+    input_data = """\
+    """
+    sys.stdin = io.StringIO(input_data)
+
+
 def input():
-    if "debugpy" in sys.modules:
-        input_data = """\
-        """
-        sys.stdin = io.StringIO(input_data)
     return sys.stdin.readline()[:-1]
 
 
