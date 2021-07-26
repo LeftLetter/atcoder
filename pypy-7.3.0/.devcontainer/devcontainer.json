@@ -16,11 +16,25 @@
     "python.linting.flake8Args": [
       "--ignore=E501"
     ],
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
+    "[json]": {
+      "editor.tabSize": 2,
+    },
+    "[jsonc]": {
+      "editor.quickSuggestions": {
+        "strings": true
+      },
+      "editor.suggest.insertMode": "replace",
+      "editor.tabSize": 2
+    },
     "[python]": {
-      "editor.tabSize": 4
-    }
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      },
+      "editor.tabSize": 4,
+    },
+    "python.sortImports.path": "/usr/local/bin/isort"
   }
 }
