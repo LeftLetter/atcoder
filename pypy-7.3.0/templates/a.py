@@ -1,6 +1,5 @@
-import sys
 import io
-
+import sys
 
 if "debugpy" in sys.modules:
     input_data = """\
@@ -12,7 +11,9 @@ def input():
     return sys.stdin.readline()[:-1]
 
 
-n = input()
+s = input()
+n = int(input())
 k = int(input())
 n, k = map(int, input().split())
-a_list = list(map(int, input().split()))
+al = list(map(int, input().split()))
+cl = list(map(int, input().split()))
